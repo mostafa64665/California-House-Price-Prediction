@@ -1,18 +1,7 @@
 # California-House-Price-Prediction
-This is a regression problem to predict california housing prices.
+The US Census Bureau has published California Census Data which has 10 types of metrics such as the population, median income, median housing price, and so on for each block group in California. The dataset also serves as an input for project scoping and tries to specify the functional and nonfunctional r requirements for it.
 
-The dataset contains 20640 entries and 10 variables.
+Problem Objective:
+The project aims at building a model of housing prices to predict median house values in California using the provided dataset. This model should learn from the data and be able to predict the median housing price in any district, given all the other metrics.
 
-1- Longitude 
-2- Latitude
-3- Housing Median Age
-4- Total Rooms
-5- Total Bedrooms
-6- Population
-7- Households
-8- Median Income
-9- Median House Value
-10- Ocean Proximity
-11- Median House Value is to be predicted in this problem.
-
-I have done this project in two parts. First part contains data analysis and cleaning as explained in EDA and data cleaning.ipynb. Second is training of machine learning models explained in Training Machine Learning Algorithms.ipynb.
+Districts or block groups are the smallest geographical units for which the US Census Bureau publishes sample data (a block group typically has a population of 600 to 3,000 people). There are 20,640 districts in the project dataset.
